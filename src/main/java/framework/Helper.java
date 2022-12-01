@@ -20,7 +20,7 @@ public class Helper {
     public Helper(WebDriver driver)
     {
         this.driver=driver;
-        this.wait=new WebDriverWait(driver,10);
+
     }
 
     public WebElement findElement(By elementName)
@@ -74,15 +74,8 @@ public class Helper {
     }
 
     public void clickForWebElementWithWait(WebElement element, int timeout){
-        this.wait=new WebDriverWait(driver,timeout);
+
         element.click();
     }
 
 }
-Footer
-        © 2022 GitHub, Inc.
-        Footer navigation
-        Terms
-        Privacy
-        Security
-        Status
