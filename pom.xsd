@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://maven.apache.org/POM/4.0.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="project" type="ns:projectType" xmlns:ns="http://maven.apache.org/POM/4.0.0"/>
+  <xs:complexType name="propertiesType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="maven.compiler.source"/>
+      <xs:element type="xs:string" name="maven.compiler.target"/>
+      <xs:element type="xs:string" name="junit-jupiter-api"/>
+      <xs:element type="xs:string" name="testng"/>
+      <xs:element type="xs:string" name="lombok"/>
+      <xs:element type="xs:string" name="webdrivermanager"/>
+      <xs:element type="xs:string" name="junit"/>
+      <xs:element type="xs:string" name="junit-jupiter-engine"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="dependencyType">
+    <xs:sequence>
+      <xs:element name="groupId">
+        <xs:annotation>
+          <xs:documentation> https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java  https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-chrome-driver  https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api  https://mvnrepository.com/artifact/org.testng/testng  https://mvnrepository.com/artifact/org.projectlombok/lombok </xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="org.seleniumhq.selenium"/>
+            <xs:enumeration value="org.junit.jupiter"/>
+            <xs:enumeration value="org.testng"/>
+            <xs:enumeration value="org.projectlombok"/>
+            <xs:enumeration value="io.github.bonigarcia"/>
+            <xs:enumeration value="org.assertj"/>
+            <xs:enumeration value="junit"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="artifactId">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="selenium-java"/>
+            <xs:enumeration value="selenium-chrome-driver"/>
+            <xs:enumeration value="junit-jupiter-api"/>
+            <xs:enumeration value="testng"/>
+            <xs:enumeration value="lombok"/>
+            <xs:enumeration value="webdrivermanager"/>
+            <xs:enumeration value="assertj-core"/>
+            <xs:enumeration value="junit"/>
+            <xs:enumeration value="junit-jupiter-engine"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="version">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="4.6.0"/>
+            <xs:enumeration value="5.9.1"/>
+            <xs:enumeration value="7.6.1"/>
+            <xs:enumeration value="1.18.24"/>
+            <xs:enumeration value="5.3.1"/>
+            <xs:enumeration value="3.8.0"/>
+            <xs:enumeration value="4.4"/>
+            <xs:enumeration value="5.7.0"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="scope" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="test"/>
+            <xs:enumeration value="provided"/>
+            <xs:enumeration value="compile"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="dependenciesType">
+    <xs:sequence>
+      <xs:element type="ns:dependencyType" name="dependency" maxOccurs="unbounded" minOccurs="0" xmlns:ns="http://maven.apache.org/POM/4.0.0">
+        <xs:annotation>
+          <xs:documentation> https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager  https://mvnrepository.com/artifact/org.assertj/assertj-core  https://mvnrepository.com/artifact/junit/junit  https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="pluginType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="groupId"/>
+      <xs:element type="xs:string" name="artifactId"/>
+      <xs:element type="xs:string" name="version"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="pluginsType">
+    <xs:sequence>
+      <xs:element type="ns:pluginType" name="plugin" xmlns:ns="http://maven.apache.org/POM/4.0.0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="pluginManagementType">
+    <xs:sequence>
+      <xs:element type="ns:pluginsType" name="plugins" xmlns:ns="http://maven.apache.org/POM/4.0.0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="buildType">
+    <xs:sequence>
+      <xs:element type="ns:pluginManagementType" name="pluginManagement" xmlns:ns="http://maven.apache.org/POM/4.0.0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="projectType" mixed="true">
+    <xs:sequence>
+      <xs:element type="ns:buildType" name="build" minOccurs="0" xmlns:ns="http://maven.apache.org/POM/4.0.0"/>
+      <xs:element type="xs:string" name="modelVersion" minOccurs="0"/>
+      <xs:element type="xs:string" name="groupId" minOccurs="0"/>
+      <xs:element type="xs:string" name="artifactId" minOccurs="0"/>
+      <xs:element type="xs:string" name="version" minOccurs="0"/>
+      <xs:element type="ns:propertiesType" name="properties" minOccurs="0" xmlns:ns="http://maven.apache.org/POM/4.0.0"/>
+      <xs:element type="ns:dependenciesType" name="dependencies" minOccurs="0" xmlns:ns="http://maven.apache.org/POM/4.0.0"/>
+      <xs:element type="ns:projectType" name="project" minOccurs="0" xmlns:ns="http://maven.apache.org/POM/4.0.0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
