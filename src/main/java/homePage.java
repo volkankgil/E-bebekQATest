@@ -1,46 +1,26 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
-public class homePage {
+public class homePage extends basePage {
+        private final By SearchingProductNamelocator =By.id("txtSearchBox");
 
-    protected WebDriver driver;
-   /* String baseurl="https://demoqa.com/";*/
-    String baseurl="https://www.e-bebek.com/";
+        private productsListPage productsListPage;
 
-    public homePage(WebDriver driver){
-        this.driver=driver;
+        public homePage(WebDriver driver){
+            super(driver);
+            productsListPage =new productsListPage(driver);
+        }
+
+    public productsListPage productsListPage() {
+        return this.productsListPage;
     }
 
-    public void searchProduct(){
+    public void setProductName(String nameText){
+            type(SearchingProductNamelocator,nameText);
+        }
+
+         public String getName(){
+           return find(SearchingProductNamelocator).getAttribute("value");
+         }
 
     }
-
-    public void addToProductCart(){
-
-    }
-
-    public void showCart(){
-
-    }
-
-    public void finishShopping(){
-
-    }
-
-    public WebElement find(By locator){
-        return driver.findElement(locator);
-    }
-
-    public void click(By locator){
-        find(locator).click();
-    }
-
-    public void type(By locator,String text){
-        find(locator).sendKeys(text);
-    }
-
-    public boolean isselected(By locator){
-        return find(locator).isSelected();
-    }
-}

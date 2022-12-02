@@ -1,22 +1,17 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class baseTest {
-
     protected WebDriver driver;
-
-
     @BeforeAll
     public void setup(){
         WebDriverManager.chromedriver().setup();
-        //test initiated
-        driver.get();
+        //driver=new ChromeDriver();
+       // driver.get("https://www.e-bebek.com/");
     }
-
     @BeforeEach
     public void afterMethod(){
         driver=new ChromeDriver();
