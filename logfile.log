@@ -1,0 +1,691 @@
+2022-12-06 14:34:02,252 INFO  [Log] setProductName() PASSED 
+2022-12-06 14:34:07,299 ERROR [Log] select_product() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.SearchResultsListSlot.has-components.ng-star-inserted > eb-product-list > div > section > div > div > div > div.cx-product-container.row.ng-star-inserted > eb-product-scroll > div > div > eb-product-list-item:nth-child(1) > div > eb-generic-link > a > figure > cx-media > img"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6938a0f5494731816f8da0ed2cc625f, findElement {using=css selector, value=body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.SearchResultsListSlot.has-components.ng-star-inserted > eb-product-list > div > section > div > div > div > div.cx-product-container.row.ng-star-inserted > eb-product-scroll > div > div > eb-product-list-item:nth-child(1) > div > eb-generic-link > a > figure > cx-media > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51513/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c6938a0f5494731816f8da0ed2cc625f 
+2022-12-06 14:34:12,348 ERROR [Log] addToCart() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6938a0f5494731816f8da0ed2cc625f, findElement {using=xpath, value=/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51513/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c6938a0f5494731816f8da0ed2cc625f 
+2022-12-06 14:34:16,473 ERROR [Log] goToCart() FAILED with cause : Unable to find element with locator By.cssSelector: #btnShowCart
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: RemoteWebDriver 
+2022-12-06 14:34:16,491 ERROR [Log] completeShopping() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c6938a0f5494731816f8da0ed2cc625f, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51513/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c6938a0f5494731816f8da0ed2cc625f 
+2022-12-06 14:34:40,875 INFO  [Log] setProductName() PASSED 
+2022-12-06 14:34:45,265 INFO  [Log] select_product() PASSED 
+2022-12-06 14:34:47,968 INFO  [Log] addToCart() PASSED 
+2022-12-06 14:34:50,121 INFO  [Log] goToCart() PASSED 
+2022-12-06 14:34:52,223 INFO  [Log] completeShopping() PASSED 
+2022-12-06 14:50:28,127 INFO  [Log] setProductName() PASSED 
+2022-12-06 14:50:31,908 INFO  [Log] select_product() PASSED 
+2022-12-06 14:50:33,913 INFO  [Log] addToCart() PASSED 
+2022-12-06 14:50:35,585 INFO  [Log] goToCart() PASSED 
+2022-12-06 14:50:40,783 ERROR [Log] completeShopping() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnGoToShippingAddress > span"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fea7b55ec0153ee40873994ae3ab8735, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52153}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52153/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fea7b55ec0153ee40873994ae3ab8735 
+2022-12-06 14:51:05,448 ERROR [Log] setProductName() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fade9bf5cac6cfc953da6108cd0dd929, findElement {using=css selector, value=body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52378/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fade9bf5cac6cfc953da6108cd0dd929 
+2022-12-06 14:51:06,858 ERROR [Log] select_product() FAILED with cause : Unable to find element with locator By.cssSelector: body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.SearchResultsListSlot.has-components.ng-star-inserted > eb-product-list > div > section > div > div > div > div.cx-product-container.row.ng-star-inserted > eb-product-scroll > div > div > eb-product-list-item:nth-child(1) > div > eb-generic-link > a > figure > cx-media > img
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: RemoteWebDriver 
+2022-12-06 14:51:06,880 ERROR [Log] addToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fade9bf5cac6cfc953da6108cd0dd929, findElement {using=xpath, value=/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52378/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fade9bf5cac6cfc953da6108cd0dd929 
+2022-12-06 14:51:06,893 ERROR [Log] goToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fade9bf5cac6cfc953da6108cd0dd929, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52378/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fade9bf5cac6cfc953da6108cd0dd929 
+2022-12-06 14:51:06,907 ERROR [Log] completeShopping() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fade9bf5cac6cfc953da6108cd0dd929, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52378}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52378/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fade9bf5cac6cfc953da6108cd0dd929 
+2022-12-06 14:51:25,709 ERROR [Log] setProductName() FAILED with cause : Unable to find element with locator By.cssSelector: body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: RemoteWebDriver 
+2022-12-06 14:51:25,740 ERROR [Log] select_product() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d6d80d519f9a35de9840accc585fb42, findElement {using=css selector, value=body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.SearchResultsListSlot.has-components.ng-star-inserted > eb-product-list > div > section > div > div > div > div.cx-product-container.row.ng-star-inserted > eb-product-scroll > div > div > eb-product-list-item:nth-child(1) > div > eb-generic-link > a > figure > cx-media > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52458/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d6d80d519f9a35de9840accc585fb42 
+2022-12-06 14:51:25,756 ERROR [Log] addToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d6d80d519f9a35de9840accc585fb42, findElement {using=xpath, value=/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52458/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d6d80d519f9a35de9840accc585fb42 
+2022-12-06 14:51:25,768 ERROR [Log] goToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d6d80d519f9a35de9840accc585fb42, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52458/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d6d80d519f9a35de9840accc585fb42 
+2022-12-06 14:51:25,778 ERROR [Log] completeShopping() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d6d80d519f9a35de9840accc585fb42, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52458}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52458/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d6d80d519f9a35de9840accc585fb42 
+2022-12-06 14:51:42,494 ERROR [Log] setProductName() FAILED with cause : Unable to find element with locator By.cssSelector: body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: RemoteWebDriver 
+2022-12-06 14:51:42,531 ERROR [Log] select_product() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66fa93c7983789a90194869400e99c43, findElement {using=css selector, value=body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.SearchResultsListSlot.has-components.ng-star-inserted > eb-product-list > div > section > div > div > div > div.cx-product-container.row.ng-star-inserted > eb-product-scroll > div > div > eb-product-list-item:nth-child(1) > div > eb-generic-link > a > figure > cx-media > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52531}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52531/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 66fa93c7983789a90194869400e99c43 
+2022-12-06 14:51:42,547 ERROR [Log] addToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66fa93c7983789a90194869400e99c43, findElement {using=xpath, value=/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52531}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52531/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 66fa93c7983789a90194869400e99c43 
+2022-12-06 14:51:42,559 ERROR [Log] goToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66fa93c7983789a90194869400e99c43, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52531}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52531/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 66fa93c7983789a90194869400e99c43 
+2022-12-06 14:51:42,571 ERROR [Log] completeShopping() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [66fa93c7983789a90194869400e99c43, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:52531}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52531/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 66fa93c7983789a90194869400e99c43 
+2022-12-06 14:52:00,990 INFO  [Log] setProductName() PASSED 
+2022-12-06 14:52:05,104 INFO  [Log] select_product() PASSED 
+2022-12-06 14:52:06,843 INFO  [Log] addToCart() PASSED 
+2022-12-06 14:52:09,120 INFO  [Log] goToCart() PASSED 
+2022-12-06 14:52:11,668 INFO  [Log] completeShopping() PASSED 
+2022-12-06 15:27:18,903 INFO  [Log] setProductName() PASSED 
+2022-12-06 15:27:22,888 INFO  [Log] select_product() PASSED 
+2022-12-06 15:27:25,602 INFO  [Log] addToCart() PASSED 
+2022-12-06 15:27:27,510 INFO  [Log] goToCart() PASSED 
+2022-12-06 15:27:40,861 ERROR [Log] completeShopping() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnGoToShippingAddress > span"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e74e36dc36c119cad8fe608eeeb737f, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63204}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63204/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e74e36dc36c119cad8fe608eeeb737f 
+2022-12-06 15:28:23,610 INFO  [Log] setProductName() PASSED 
+2022-12-06 15:28:27,815 INFO  [Log] select_product() PASSED 
+2022-12-06 15:28:30,384 INFO  [Log] addToCart() PASSED 
+2022-12-06 15:28:32,908 INFO  [Log] goToCart() PASSED 
+2022-12-06 15:28:34,282 INFO  [Log] completeShopping() PASSED 
+2022-12-06 15:45:27,650 INFO  [Log] setProductName() PASSED 
+2022-12-06 15:45:33,883 INFO  [Log] select_product() PASSED 
+2022-12-06 15:45:36,857 INFO  [Log] addToCart() PASSED 
+2022-12-06 15:45:38,991 INFO  [Log] goToCart() PASSED 
+2022-12-06 15:45:45,662 ERROR [Log] completeShopping() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnSubmitLogin"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [053bf41465058a252b08ad2f4adb56eb, findElement {using=id, value=btnSubmitLogin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64325}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64325/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 053bf41465058a252b08ad2f4adb56eb 
+2022-12-06 15:50:30,523 INFO  [Log] setProductName() PASSED 
+2022-12-06 15:50:35,054 INFO  [Log] select_product() PASSED 
+2022-12-06 15:50:38,819 INFO  [Log] addToCart() PASSED 
+2022-12-06 15:50:40,507 INFO  [Log] goToCart() PASSED 
+2022-12-06 15:50:47,736 ERROR [Log] completeShopping() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnSubmitLogin"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5034076a60e77753d1253d4cbd0b30f, findElement {using=id, value=btnSubmitLogin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64796}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64796/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d5034076a60e77753d1253d4cbd0b30f 
+2022-12-06 15:52:36,631 ERROR [Log] setProductName() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06010099fbced066b83ca7363621eb83, findElement {using=css selector, value=body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65174/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 06010099fbced066b83ca7363621eb83 
+2022-12-06 15:52:37,278 ERROR [Log] select_product() FAILED with cause : Unable to find element with locator By.cssSelector: body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.SearchResultsListSlot.has-components.ng-star-inserted > eb-product-list > div > section > div > div > div > div.cx-product-container.row.ng-star-inserted > eb-product-scroll > div > div > eb-product-list-item:nth-child(1) > div > eb-generic-link > a > figure > cx-media > img
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: RemoteWebDriver 
+2022-12-06 15:52:37,299 ERROR [Log] addToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06010099fbced066b83ca7363621eb83, findElement {using=xpath, value=/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65174/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 06010099fbced066b83ca7363621eb83 
+2022-12-06 15:52:37,324 ERROR [Log] goToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06010099fbced066b83ca7363621eb83, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65174/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 06010099fbced066b83ca7363621eb83 
+2022-12-06 15:52:37,336 ERROR [Log] completeShopping() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [06010099fbced066b83ca7363621eb83, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65174}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65174/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 06010099fbced066b83ca7363621eb83 
+2022-12-06 15:53:00,229 INFO  [Log] setProductName() PASSED 
+2022-12-06 15:53:04,101 INFO  [Log] select_product() PASSED 
+2022-12-06 15:53:09,142 ERROR [Log] addToCart() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff4c60d83a5198a950e62e972e8cb2ee, findElement {using=xpath, value=/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65259/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff4c60d83a5198a950e62e972e8cb2ee 
+2022-12-06 15:53:14,163 ERROR [Log] goToCart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnShowCart"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff4c60d83a5198a950e62e972e8cb2ee, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65259/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff4c60d83a5198a950e62e972e8cb2ee 
+2022-12-06 15:53:19,225 ERROR [Log] completeShopping() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnGoToShippingAddress > span"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ff4c60d83a5198a950e62e972e8cb2ee, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65259/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ff4c60d83a5198a950e62e972e8cb2ee 
+2022-12-06 15:53:46,062 INFO  [Log] setProductName() PASSED 
+2022-12-06 15:53:50,536 INFO  [Log] select_product() PASSED 
+2022-12-06 15:53:53,131 INFO  [Log] addToCart() PASSED 
+2022-12-06 15:54:08,438 ERROR [Log] goToCart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnShowCart"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a769823afc6ffe98b81e3b01ea66408, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65511}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65511/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a769823afc6ffe98b81e3b01ea66408 
+2022-12-06 15:54:13,494 ERROR [Log] completeShopping() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnGoToShippingAddress > span"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9a769823afc6ffe98b81e3b01ea66408, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:65511}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65511/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a769823afc6ffe98b81e3b01ea66408 
+2022-12-06 15:55:07,403 INFO  [Log] setProductName() PASSED 
+2022-12-06 15:55:11,167 INFO  [Log] select_product() PASSED 
+2022-12-06 15:55:13,696 INFO  [Log] addToCart() PASSED 
+2022-12-06 15:55:15,620 INFO  [Log] goToCart() PASSED 
+2022-12-06 15:55:23,160 ERROR [Log] completeShopping() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnSubmitLogin"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b25e45d41b2bf86c3a14af830d885f43, findElement {using=id, value=btnSubmitLogin}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49472}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49472/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b25e45d41b2bf86c3a14af830d885f43 
+2022-12-06 15:57:32,995 INFO  [Log] setProductName() PASSED 
+2022-12-06 15:57:38,071 ERROR [Log] select_product() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.SearchResultsListSlot.has-components.ng-star-inserted > eb-product-list > div > section > div > div > div > div.cx-product-container.row.ng-star-inserted > eb-product-scroll > div > div > eb-product-list-item:nth-child(1) > div > eb-generic-link > a > figure > cx-media > img"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af0d69fe96652761c3076f71c70fa408, findElement {using=css selector, value=body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.SearchResultsListSlot.has-components.ng-star-inserted > eb-product-list > div > section > div > div > div > div.cx-product-container.row.ng-star-inserted > eb-product-scroll > div > div > eb-product-list-item:nth-child(1) > div > eb-generic-link > a > figure > cx-media > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: af0d69fe96652761c3076f71c70fa408 
+2022-12-06 15:57:43,327 ERROR [Log] addToCart() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af0d69fe96652761c3076f71c70fa408, findElement {using=xpath, value=/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: af0d69fe96652761c3076f71c70fa408 
+2022-12-06 15:57:48,344 ERROR [Log] goToCart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnShowCart"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af0d69fe96652761c3076f71c70fa408, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: af0d69fe96652761c3076f71c70fa408 
+2022-12-06 15:57:53,411 ERROR [Log] completeShopping() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnGoToShippingAddress > span"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af0d69fe96652761c3076f71c70fa408, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:49873}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49873/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: af0d69fe96652761c3076f71c70fa408 
+2022-12-06 15:58:12,280 INFO  [Log] setProductName() PASSED 
+2022-12-06 15:58:16,338 INFO  [Log] select_product() PASSED 
+2022-12-06 15:58:19,660 INFO  [Log] addToCart() PASSED 
+2022-12-06 15:58:21,581 INFO  [Log] goToCart() PASSED 
+2022-12-06 15:58:34,328 ERROR [Log] completeShopping() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnGoToShippingAddress > span"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa18fcae3ed019e52c788c7d1bdcb768, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50083}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50083/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa18fcae3ed019e52c788c7d1bdcb768 
+2022-12-06 16:00:57,507 ERROR [Log] setProductName() FAILED with cause : Unable to find element with locator By.cssSelector: body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: RemoteWebDriver 
+2022-12-06 16:00:57,549 ERROR [Log] select_product() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71299d6b8e90b3b459fbb0bfc68cf8b2, findElement {using=css selector, value=body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.ProductListSlot.has-components > eb-product-list > div > section > div > div > div > div.cx-product-container.row > eb-product-scroll > div > div > eb-product-list-item:nth-child(22) > div > eb-generic-link > a > figure > cx-media > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50427/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71299d6b8e90b3b459fbb0bfc68cf8b2 
+2022-12-06 16:00:57,565 ERROR [Log] addToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71299d6b8e90b3b459fbb0bfc68cf8b2, findElement {using=xpath, value=/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50427/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71299d6b8e90b3b459fbb0bfc68cf8b2 
+2022-12-06 16:00:57,577 ERROR [Log] goToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71299d6b8e90b3b459fbb0bfc68cf8b2, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50427/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71299d6b8e90b3b459fbb0bfc68cf8b2 
+2022-12-06 16:00:57,590 ERROR [Log] completeShopping() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [71299d6b8e90b3b459fbb0bfc68cf8b2, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50427}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50427/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71299d6b8e90b3b459fbb0bfc68cf8b2 
+2022-12-06 16:01:26,026 ERROR [Log] setProductName() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7fa10a45cf14f36ecc5437e3c6dd8600, findElement {using=css selector, value=body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50513/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fa10a45cf14f36ecc5437e3c6dd8600 
+2022-12-06 16:01:28,627 ERROR [Log] select_product() FAILED with cause : disconnected: received Inspector.detached event
+  (failed to check if window was closed: disconnected: unable to send message to renderer)
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7fa10a45cf14f36ecc5437e3c6dd8600, findElement {using=css selector, value=body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.ProductListSlot.has-components > eb-product-list > div > section > div > div > div > div.cx-product-container.row > eb-product-scroll > div > div > eb-product-list-item:nth-child(22) > div > eb-generic-link > a > figure > cx-media > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50513/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7fa10a45cf14f36ecc5437e3c6dd8600 
+2022-12-06 16:01:56,897 ERROR [Log] setProductName() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6370a1de06fecdaa0b52ba30c42d774, findElement {using=css selector, value=body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50602}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50602/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e6370a1de06fecdaa0b52ba30c42d774 
+2022-12-06 16:01:59,744 ERROR [Log] select_product() FAILED with cause : Unable to find element with locator By.cssSelector: body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.ProductListSlot.has-components > eb-product-list > div > section > div > div > div > div.cx-product-container.row > eb-product-scroll > div > div > eb-product-list-item:nth-child(22) > div > eb-generic-link > a > figure > cx-media > img
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: RemoteWebDriver 
+2022-12-06 16:01:59,766 ERROR [Log] addToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6370a1de06fecdaa0b52ba30c42d774, findElement {using=xpath, value=/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50602}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50602/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e6370a1de06fecdaa0b52ba30c42d774 
+2022-12-06 16:01:59,778 ERROR [Log] goToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6370a1de06fecdaa0b52ba30c42d774, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50602}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50602/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e6370a1de06fecdaa0b52ba30c42d774 
+2022-12-06 16:01:59,790 ERROR [Log] completeShopping() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6370a1de06fecdaa0b52ba30c42d774, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50602}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50602/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e6370a1de06fecdaa0b52ba30c42d774 
+2022-12-06 16:02:31,097 ERROR [Log] setProductName() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9da9545fb9b459dae69d4bd47834596, findElement {using=css selector, value=body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50683}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50683/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9da9545fb9b459dae69d4bd47834596 
+2022-12-06 16:02:36,166 ERROR [Log] select_product() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.ProductListSlot.has-components > eb-product-list > div > section > div > div > div > div.cx-product-container.row > eb-product-scroll > div > div > eb-product-list-item:nth-child(22) > div > eb-generic-link > a > figure > cx-media > img"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9da9545fb9b459dae69d4bd47834596, findElement {using=css selector, value=body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.ProductListSlot.has-components > eb-product-list > div > section > div > div > div > div.cx-product-container.row > eb-product-scroll > div > div > eb-product-list-item:nth-child(22) > div > eb-generic-link > a > figure > cx-media > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50683}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50683/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9da9545fb9b459dae69d4bd47834596 
+2022-12-06 16:02:41,218 ERROR [Log] addToCart() FAILED with cause : no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9da9545fb9b459dae69d4bd47834596, findElement {using=xpath, value=/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50683}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50683/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9da9545fb9b459dae69d4bd47834596 
+2022-12-06 16:02:46,276 ERROR [Log] goToCart() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnShowCart"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9da9545fb9b459dae69d4bd47834596, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50683}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50683/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9da9545fb9b459dae69d4bd47834596 
+2022-12-06 16:02:51,337 ERROR [Log] completeShopping() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"#btnGoToShippingAddress > span"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e9da9545fb9b459dae69d4bd47834596, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50683}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50683/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9da9545fb9b459dae69d4bd47834596 
+2022-12-06 16:03:18,518 ERROR [Log] setProductName() FAILED with cause : Unable to find element with locator By.cssSelector: body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: RemoteWebDriver 
+2022-12-06 16:03:18,560 ERROR [Log] select_product() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4547da2142a516de917eec9be2cbed4, findElement {using=css selector, value=body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.ProductListSlot.has-components > eb-product-list > div > section > div > div > div > div.cx-product-container.row > eb-product-scroll > div > div > eb-product-list-item:nth-child(22) > div > eb-generic-link > a > figure > cx-media > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50755/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4547da2142a516de917eec9be2cbed4 
+2022-12-06 16:03:18,576 ERROR [Log] addToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4547da2142a516de917eec9be2cbed4, findElement {using=xpath, value=/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50755/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4547da2142a516de917eec9be2cbed4 
+2022-12-06 16:03:18,592 ERROR [Log] goToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4547da2142a516de917eec9be2cbed4, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50755/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4547da2142a516de917eec9be2cbed4 
+2022-12-06 16:03:18,604 ERROR [Log] completeShopping() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b4547da2142a516de917eec9be2cbed4, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50755}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50755/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b4547da2142a516de917eec9be2cbed4 
+2022-12-06 16:03:58,159 ERROR [Log] setProductName() FAILED with cause : Unable to find element with locator By.cssSelector: body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: RemoteWebDriver 
+2022-12-06 16:03:58,200 ERROR [Log] select_product() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc20ad7020463371b0ff1a4167922825, findElement {using=css selector, value=body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.SearchResultsListSlot.has-components.ng-star-inserted > eb-product-list > div > section > div > div > div > div.cx-product-container.row.ng-star-inserted > eb-product-scroll > div > div > eb-product-list-item:nth-child(1) > div > eb-generic-link > a > figure > cx-media > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50826}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50826/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc20ad7020463371b0ff1a4167922825 
+2022-12-06 16:03:58,216 ERROR [Log] addToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc20ad7020463371b0ff1a4167922825, findElement {using=xpath, value=/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50826}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50826/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc20ad7020463371b0ff1a4167922825 
+2022-12-06 16:03:58,231 ERROR [Log] goToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc20ad7020463371b0ff1a4167922825, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50826}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50826/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc20ad7020463371b0ff1a4167922825 
+2022-12-06 16:03:58,243 ERROR [Log] completeShopping() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc20ad7020463371b0ff1a4167922825, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50826}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50826/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc20ad7020463371b0ff1a4167922825 
+2022-12-06 16:04:57,401 ERROR [Log] setProductName() FAILED with cause : Unable to find element with locator By.cssSelector: body > div.ins-custom-overlay-c2703 > div > div.ins-close-button-container-c2703 > img
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: RemoteWebDriver 
+2022-12-06 16:04:57,448 ERROR [Log] select_product() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f813231fd5bb40f45f5ace36a1d376d0, findElement {using=css selector, value=body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.SearchResultsListSlot.has-components.ng-star-inserted > eb-product-list > div > section > div > div > div > div.cx-product-container.row.ng-star-inserted > eb-product-scroll > div > div > eb-product-list-item:nth-child(1) > div > eb-generic-link > a > figure > cx-media > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50947/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f813231fd5bb40f45f5ace36a1d376d0 
+2022-12-06 16:04:57,469 ERROR [Log] addToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f813231fd5bb40f45f5ace36a1d376d0, findElement {using=xpath, value=/html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50947/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f813231fd5bb40f45f5ace36a1d376d0 
+2022-12-06 16:04:57,486 ERROR [Log] goToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f813231fd5bb40f45f5ace36a1d376d0, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50947/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f813231fd5bb40f45f5ace36a1d376d0 
+2022-12-06 16:04:57,503 ERROR [Log] completeShopping() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f813231fd5bb40f45f5ace36a1d376d0, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:50947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50947/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f813231fd5bb40f45f5ace36a1d376d0 
+2022-12-06 16:06:00,906 ERROR [Log] setProductName() FAILED with cause : element click intercepted: Element <input aria-autocomplete="both" aria-controls="results" aria-describedby="initialDescription" autocomplete="off" id="txtSearchBox" placeholder="Ne aramýþtýnýz? Örnek; yenidoðan giyim, bebek bezi, akülü araba, park yatak" aria-label="Ara"> is not clickable at point (657, 98). Other element would receive the click: <div class="ins-custom-header-c2703">...</div>
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f5c860d88844bc91f9fbf94701ed2dd1, clickElement {id=e11dc510-6fbf-4684-b436-7a9a22f0402e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51121/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (f5c860d88844bc91f9fbf94701ed2dd1)] -> id: txtSearchBox]
+Session ID: f5c860d88844bc91f9fbf94701ed2dd1 
+2022-12-06 16:06:05,972 ERROR [Log] select_product() FAILED with cause : no such element: Unable to locate element: {"method":"css selector","selector":"body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.SearchResultsListSlot.has-components.ng-star-inserted > eb-product-list > div > section > div > div > div > div.cx-product-container.row.ng-star-inserted > eb-product-scroll > div > div > eb-product-list-item:nth-child(1) > div > eb-generic-link > a > figure > cx-media > img"}
+  (Session info: chrome=108.0.5359.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f5c860d88844bc91f9fbf94701ed2dd1, findElement {using=css selector, value=body > app-root > cx-storefront > main > cx-page-layout > cx-page-slot.SearchResultsListSlot.has-components.ng-star-inserted > eb-product-list > div > section > div > div > div > div.cx-product-container.row.ng-star-inserted > eb-product-scroll > div > div > eb-product-list-item:nth-child(1) > div > eb-generic-link > a > figure > cx-media > img}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51121/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f5c860d88844bc91f9fbf94701ed2dd1 
+2022-12-06 16:06:09,428 ERROR [Log] addToCart() FAILED with cause : Unable to find element with locator By.xpath: /html/body/app-root/cx-storefront/main/cx-page-layout/div/div/div[2]/cx-page-layout/cx-page-slot/eb-add-to-cart/form/button
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: RemoteWebDriver 
+2022-12-06 16:06:09,439 ERROR [Log] goToCart() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f5c860d88844bc91f9fbf94701ed2dd1, findElement {using=css selector, value=#btnShowCart}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51121/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f5c860d88844bc91f9fbf94701ed2dd1 
+2022-12-06 16:06:09,455 ERROR [Log] completeShopping() FAILED with cause : no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f5c860d88844bc91f9fbf94701ed2dd1, findElement {using=css selector, value=#btnGoToShippingAddress > span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\SATNAL~1.AYG\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:51121}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51121/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f5c860d88844bc91f9fbf94701ed2dd1 
+2022-12-06 16:06:37,558 INFO  [Log] setProductName() PASSED 
+2022-12-06 16:06:41,350 INFO  [Log] select_product() PASSED 
+2022-12-06 16:06:43,891 INFO  [Log] addToCart() PASSED 
+2022-12-06 16:06:46,181 INFO  [Log] goToCart() PASSED 
+2022-12-06 16:06:48,694 INFO  [Log] completeShopping() PASSED 

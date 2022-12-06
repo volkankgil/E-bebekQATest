@@ -17,6 +17,7 @@
         <webdrivermanager>5.3.1</webdrivermanager>
         <junit>4.4</junit>
         <junit-jupiter-engine>5.9.1</junit-jupiter-engine>
+        <log4j>1.2.17</log4j>
     </properties>
 
     <dependencies>
@@ -102,6 +103,19 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>5.9.1</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>selenium-jupiter</artifactId>
+            <version>4.3.2</version>
             <scope>test</scope>
         </dependency>
 
